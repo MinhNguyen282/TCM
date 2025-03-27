@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import Navigation from "./components/Navigation";
+import CalculationAndCharacteristics from "./pages/CalculationAndCharacteristics";
+import Correlation from "./pages/Correlation";
+import Solver from "./pages/Solver";
+import OptimalRiskyPortfolio from "./pages/Risky";
+import CALAndEfficientFrontier from "./pages/CAL";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="min-h-screen flex flex-col">
+        <Navigation />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Navigate replace to="/calculation" />} />
+            <Route path="/calculation" element={<CalculationAndCharacteristics />} />
+            <Route path="/correlation" element={<Correlation />} />
+            <Route path="/solver" element={<Solver />} />
+            <Route path="/optimal-risky-portfolio" element={<OptimalRiskyPortfolio />} />
+            <Route path="/cal-efficient-frontier" element={<CALAndEfficientFrontier />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
 }
 
