@@ -65,15 +65,12 @@ const OptimalRiskyPortfolio = () => {
       {/* Upper Section: Three horizontal panels for risky1, risky2, risky3 */}
       <div className="flex flex-col md:flex-row gap-4">
         <div className="md:w-1/3 bg-white p-4 rounded shadow-md overflow-x-auto">
-          <h3 className="text-xl font-semibold mb-2">Risky1 Data</h3>
           {renderTable(risky1)}
         </div>
         <div className="md:w-1/3 bg-white p-4 rounded shadow-md overflow-x-auto">
-          <h3 className="text-xl font-semibold mb-2">Risky2 Data</h3>
           {renderTable(risky2)}
         </div>
         <div className="md:w-1/3 bg-white p-4 rounded shadow-md overflow-x-auto">
-          <h3 className="text-xl font-semibold mb-2">Risky3 Data</h3>
           {renderTable(risky3)}
         </div>
       </div>
