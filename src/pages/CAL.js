@@ -89,14 +89,6 @@ const CALAndEfficientFrontier = () => {
   };
 
   // -----------------------------
-  // Lower Section: Three images horizontally.
-  const renderImage = () => (
-    <img
-      src="/image/Picture1.png"
-      alt="Picture1"
-      className="max-w-full h-auto"
-    />
-  );
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-10 space-y-8">
@@ -194,13 +186,25 @@ const CALAndEfficientFrontier = () => {
       {/* Lower Section: Three images horizontally */}
       <div className="flex flex-col md:flex-row gap-4">
         <div className="md:w-1/3 bg-white p-4 rounded shadow-md flex justify-center items-center">
-          {renderImage()}
+          <img
+            src="/image/Picture1.png"
+            alt="Picture1"
+            className="max-w-full h-auto"
+          />
         </div>
         <div className="md:w-1/3 bg-white p-4 rounded shadow-md flex justify-center items-center">
-          {renderImage()}
+          <img
+            src="/image/Picture2.png"
+            alt="Picture2"
+            className="max-w-full h-auto"
+          />
         </div>
         <div className="md:w-1/3 bg-white p-4 rounded shadow-md flex justify-center items-center">
-          {renderImage()}
+          <img
+            src="/image/Picture3.png"
+            alt="Picture3"
+            className="max-w-full h-auto"
+          />
         </div>
       </div>
     </div>
