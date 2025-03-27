@@ -1,0 +1,44 @@
+[
+    {
+        "Input":"rf",
+        "E(r)":"0.750%",
+        "𝞼":0.0,
+        "WEIGHT (W)":null
+    },
+    {
+        "Input":"VCB",
+        "E(r)":"1.093%",
+        "𝞼":0.0777,
+        "WEIGHT (W)":"5.00%"
+    },
+    {
+        "Input":"FPT",
+        "E(r)":"3.374%",
+        "𝞼":0.08148,
+        "WEIGHT (W)":"72.70%"
+    },
+    {
+        "Input":"BMP",
+        "E(r)":"2.915%",
+        "𝞼":0.0988,
+        "WEIGHT (W)":"22.30%"
+    },
+    {
+        "Input":"Cov(VCB,FPT)",
+        "E(r)":"0.239%",
+        "𝞼":null,
+        "WEIGHT (W)":null
+    },
+    {
+        "Input":"Cov(VCB,BMP)",
+        "E(r)":"0.310%",
+        "𝞼":null,
+        "WEIGHT (W)":null
+    },
+    {
+        "Input":"COV(FPT,BMP)",
+        "E(r)":"0.319%",
+        "𝞼":null,
+        "WEIGHT (W)":null
+    }
+]

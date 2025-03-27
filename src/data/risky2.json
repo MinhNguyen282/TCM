@@ -1,0 +1,52 @@
+[
+    {
+        "Assuming":"A",
+        "":4,
+        "Solver with function":null
+    },
+    {
+        "Assuming":null,
+        "":null,
+        "Solver with function":1.00
+    },
+    {
+        "Assuming":"1-y",
+        "":null,
+        "Solver with function":-0.14
+    },
+    {
+        "Assuming":"E(rc)",
+        "":null,
+        "Solver with function":0.03
+    },
+    {
+        "Assuming":"E(rp)",
+        "":null,
+        "Solver with function":0.03
+    },
+    {
+        "Assuming":"rf",
+        "":null,
+        "Solver with function":0.01
+    },
+    {
+        "Assuming":"U",
+        "":null,
+        "Solver with function":0.02
+    },
+    {
+        "Assuming":"y",
+        "":null,
+        "Solver with function":1.14
+    },
+    {
+        "Assuming":"𝞼c",
+        "":null,
+        "Solver with function":0.08
+    },
+    {
+        "Assuming":"𝞼p",
+        "":null,
+        "Solver with function":0.07
+    }
+]

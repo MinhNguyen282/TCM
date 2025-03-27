@@ -1,0 +1,26 @@
+[
+    {
+        "Output":"The risky portfolio",
+        "Output(1)":113.86
+    },
+    {
+        "Output":"Capital",
+        "Output(1)":100.00
+    },
+    {
+        "Output":"FPT",
+        "Output(1)":82.78
+    },
+    {
+        "Output":"BMP",
+        "Output(1)":25.39
+    },
+    {
+        "Output":"VCB",
+        "Output(1)":5.69
+    },
+    {
+        "Output":"The risk-free asset",
+        "Output(1)":-13.86
+    }
+]
