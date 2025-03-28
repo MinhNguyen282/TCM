@@ -40,7 +40,7 @@ const Solver = () => {
                   ${
                     selectedCombination === combo
                       ? "bg-blue-600 text-white border-blue-600"
-                      : "bg-white text-gray-800 hover:bg-gray-200"
+                      : "bg-white hover:bg-gray-200"
                   }`}
               >
                 {combo}
@@ -61,7 +61,7 @@ const Solver = () => {
           <h3 className="text-xl font-semibold mb-4">Solver Data Table</h3>
           <table className="min-w-full text-sm">
             <thead>
-              <tr className="bg-gray-800 text-white">
+              <tr className="bg-gray-200">
                 <th className="py-2 px-3 border">Combination</th>
                 <th className="py-2 px-3 border">Stock i</th>
                 <th className="py-2 px-3 border">Stock j</th>

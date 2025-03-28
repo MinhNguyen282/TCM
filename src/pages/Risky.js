@@ -14,7 +14,7 @@ const OptimalRiskyPortfolio = () => {
     return (
       <table className="min-w-full text-sm border">
         <thead>
-          <tr className="bg-gray-800 text-white">
+          <tr className="bg-gray-200">
             {headers.map((header, idx) => (
               <th key={idx} className="py-2 px-3 border">
                 {header}

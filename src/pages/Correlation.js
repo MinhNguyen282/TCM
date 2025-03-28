@@ -51,7 +51,7 @@ const Correlation = () => {
                 ${
                   selectedStock === stock
                     ? "bg-blue-600 text-white border-blue-600"
-                    : "bg-white text-gray-800 hover:bg-gray-200"
+                    : "bg-white hover:bg-gray-200"
                 }`}
             >
               {stock}
@@ -66,7 +66,7 @@ const Correlation = () => {
         {selectedStock ? (
           <table className="min-w-full">
             <thead>
-              <tr className="bg-gray-800 text-white">
+              <tr className="bg-gray-200">
                 <th className="py-2 px-3 border">Stock Pair</th>
                 <th className="py-2 px-3 border">Correlation</th>
                 <th className="py-2 px-3 border">Covariance</th>

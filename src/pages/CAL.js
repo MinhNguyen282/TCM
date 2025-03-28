@@ -13,7 +13,7 @@ const CALAndEfficientFrontier = () => {
       <div className="max-h-48 overflow-y-auto">
         <table className="min-w-full text-sm border">
           <thead className="sticky top-0 z-10">
-            <tr className="bg-gray-800 text-white">
+            <tr className="bg-gray-200">
               {headers.map((header, idx) => (
                 <th key={idx} className="py-2 px-3 border">
                   {header}
