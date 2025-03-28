@@ -66,7 +66,7 @@ const Correlation = () => {
         {selectedStock ? (
           <table className="min-w-full">
             <thead>
-              <tr className="bg-gray-200">
+              <tr className="bg-primary text-white">
                 <th className="py-2 px-3 border">Stock Pair</th>
                 <th className="py-2 px-3 border">Correlation</th>
                 <th className="py-2 px-3 border">Covariance</th>

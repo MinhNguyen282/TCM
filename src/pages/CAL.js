@@ -13,7 +13,7 @@ const CALAndEfficientFrontier = () => {
       <div className="max-h-48 overflow-y-auto">
         <table className="min-w-full text-sm border">
           <thead className="sticky top-0 z-10">
-            <tr className="bg-gray-200">
+            <tr className="bg-primary text-white">
               {headers.map((header, idx) => (
                 <th key={idx} className="py-2 px-3 border">
                   {header}
@@ -107,7 +107,7 @@ const CALAndEfficientFrontier = () => {
           </h3>
           <table className="min-w-full text-sm border">
             <thead>
-              <tr className="bg-gray-200">
+              <tr className="bg-primary text-white">
                 {meanVariancePortfolio.headers.map((head, idx) => (
                   <th key={idx} className="py-2 px-3 border">
                     {head}
@@ -133,7 +133,7 @@ const CALAndEfficientFrontier = () => {
           </h3>
           <table className="min-w-full text-sm border">
             <thead>
-              <tr className="bg-gray-200">
+              <tr className="bg-primary text-white">
                 {minVariancePortfolio.headers.map((head, idx) => (
                   <th key={idx} className="py-2 px-3 border">
                     {head}
@@ -157,7 +157,7 @@ const CALAndEfficientFrontier = () => {
           <h3 className="text-xl font-semibold mb-2">Correlation</h3>
           <table className="min-w-full text-sm border">
             <thead>
-              <tr className="bg-gray-200 text-center">
+              <tr className="bg-primary text-white text-center">
                 {correlationTable.headers.map((head, idx) => (
                   <th key={idx} className="py-2 px-3 border">
                     {head}

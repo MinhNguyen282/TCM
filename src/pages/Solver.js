@@ -61,7 +61,7 @@ const Solver = () => {
           <h3 className="text-xl font-semibold mb-4">Solver Data Table</h3>
           <table className="min-w-full text-sm">
             <thead>
-              <tr className="bg-gray-200">
+              <tr className="bg-primary text-white">
                 <th className="py-2 px-3 border">Combination</th>
                 <th className="py-2 px-3 border">Stock i</th>
                 <th className="py-2 px-3 border">Stock j</th>
