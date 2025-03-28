@@ -85,7 +85,7 @@ const Correlation = () => {
                   </td>
                   <td className="py-2 px-3 border">
                     {row.covariance !== null
-                      ? (100*row.covariance).toFixed(3)
+                      ? (100 * row.covariance).toFixed(3)
                       : "N/A"}
                   </td>
                 </tr>
@@ -99,7 +99,7 @@ const Correlation = () => {
         )}
       </div>
 
-      {/* Section 3: Bar Graph of Covariance (two horizontal sections) */}
+      {/* Section 3: Bar Graph of Covariance */}
       <div className="bg-white p-6 rounded shadow-md">
         <h3 className="text-xl font-semibold mb-4">Covariance Bar Graph</h3>
         {selectedStock ? (
@@ -112,19 +112,22 @@ const Correlation = () => {
                 maxCovariance > 0
                   ? (row.covariance / maxCovariance) * 100
                   : 0;
+
               return (
                 <div key={idx} className="flex items-center">
-                  {/* Left section: combination name and covariance value */}
+                  {/* Left section: combination name */}
                   <div className="w-1/3 text-sm font-medium">
                     {selectedStock} * {row.otherStock}
                   </div>
                   {/* Right Section: Bar Graph */}
                   <div className="w-2/3">
-                    <div className="w-full bg-gray-200 h-4 rounded flex justify-center items-center">
+                    <div className="w-full bg-gray-200 h-6 rounded flex justify-center items-center">
                       <div
-                        className="h-4 rounded bg-blue-500"
+                        className="h-6 rounded bg-blue-500 flex-shrink-0 flex justify-center items-center text-white font-semibold"
                         style={{ width: `${barWidth}%` }}
-                      ></div>
+                      >
+                        {(100 * row.covariance).toFixed(3)}
+                      </div>
                     </div>
                   </div>
                 </div>
